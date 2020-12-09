@@ -1,0 +1,141 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Pliki źródłowe">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Pliki zasobów">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Pliki źródłowe\Params">
+      <UniqueIdentifier>{623921ff-d3c2-4803-a52d-a21358d0158e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Pliki nagłówkowe\Params">
+      <UniqueIdentifier>{e5d8e986-5a65-4b95-a238-8e87f0a000b7}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Communicator.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="DataManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="FileManager.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Menu.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Record.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="Parameter.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamPrintFile.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamReset.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryPointer.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="BPage.cpp">
+      <Filter>Pliki źródłowe</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordFind.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordsInsert.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordDelete.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamPrintTree.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamTest.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamCaching.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamRecordModify.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+    <ClCompile Include="ParamLoadFile.cpp">
+      <Filter>Pliki źródłowe\Params</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Communicator.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="DataManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="FileManager.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Menu.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="Record.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="stdafx.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamReset.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamPrintFile.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="Parameter.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryPointer.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="BPage.h">
+      <Filter>Pliki nagłówkowe</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordFind.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordsInsert.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordDelete.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamPrintTree.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamTest.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamCaching.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamRecordModify.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+    <ClInclude Include="ParamLoadFile.h">
+      <Filter>Pliki nagłówkowe\Params</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
