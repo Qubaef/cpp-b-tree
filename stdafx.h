@@ -12,4 +12,5 @@
 
 constexpr auto DISK_PAGE_SIZE = 4096;
 constexpr auto BTREE_D = 2;
+
 constexpr auto MEMORY_NULL = 65535;

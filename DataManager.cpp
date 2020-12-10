@@ -920,6 +920,7 @@ bool DataManager::modify(unsigned key, Record& record)
 		return false;
 	}
 
+	return true;
 }
 
 

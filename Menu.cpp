@@ -9,7 +9,7 @@ Menu::Menu()
 
 	menuParameters.push_back((Parameter*)(new ParamReset(dataManager)));
 	menuParameters.push_back((Parameter*)(new ParamCaching(dataManager)));
-	menuParameters.push_back((Parameter*)(new ParamTest(dataManager)));
+	// menuParameters.push_back((Parameter*)(new ParamTest(dataManager)));
 	menuParameters.push_back((Parameter*)(new ParamRecordsInsert(dataManager)));
 	menuParameters.push_back((Parameter*)(new ParamRecordModify(dataManager)));
 	menuParameters.push_back((Parameter*)(new ParamRecordDelete(dataManager)));
@@ -43,7 +43,7 @@ void Menu::display_help(std::vector<Parameter*>& menuParameters)
 {
 	Communicator::output_inform("Available options:");
 
-	for (auto &parameter : menuParameters)
+	for (auto& parameter : menuParameters)
 	{
 		cout << "< " << parameter->toString() << endl;
 	}
@@ -92,7 +92,7 @@ void Menu::run()
 		//// Compare parsed input with parameters to find correct one
 		found = false;
 
-		for (auto &parameter : menuParameters)
+		for (auto& parameter : menuParameters)
 		{
 			if (toLower(userInputParsed[0]) == toLower(parameter->getKeyword()))
 			{
